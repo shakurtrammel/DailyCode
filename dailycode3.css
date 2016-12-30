@@ -1,0 +1,32 @@
+@font-face {
+	font-family: 'bebasneuebold';
+	src: url('bebasneue_bold.otf') format('opentype');
+}
+
+
+body {
+	font-family: 'bebasneuebold';
+	color: black;
+}
+
+header {
+	background-color: black;
+	text-align: center;
+	border: 2px solid black;
+	color: white ;
+
+}
+
+h1 {
+	font-size: 48px;
+}
+
+
+p {
+	background-color: white;
+	line-height: 25px;
+	border-bottom-width: 2px;
+	border-bottom-color: black;
+	border-bottom-style: solid;
+	
+}

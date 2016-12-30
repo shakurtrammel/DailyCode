@@ -1,0 +1,32 @@
+@font-face {
+	font-family: "BebasNeue Bold";
+	src: url('BebasNeue Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: "OpenSans-Regular";
+	src: url('OpenSans-Regular.ttf') format('truetype');
+}
+
+body {
+	font-family: OpenSans-Regular;
+	color: white;
+}
+
+header {
+	background-color: black;
+	text-align: left;
+}
+
+h1 {
+	font-family: BebasNeue Bold;
+}
+
+h3 {
+	font-style: italic;
+}
+
+p {
+	background-color: black;
+	line-height: 25px;
+}
