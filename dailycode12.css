@@ -1,0 +1,83 @@
+@font-face { 
+	font-family: 'Muli-Light';
+	src: url('/fonts/muli-light.eot');
+	src: url('/fonts/muli-light.eot?#iefix') format('embedded-opentype'),
+	     url('/fonts/muli-light.woff') format('woff'),
+	     url('/fonts/muli-light.ttf') format('truetype'),
+	     url('/fonts/muli-light.svg#webfont') format('svg');
+}
+
+body {
+	font-family: 'Muli-Light', Helvetica, sans-serif;
+	font-size: 16px;
+	color: #555;
+}
+
+.wrapper {
+	width: 400px;
+	height: 600px;
+	border: 1px solid #666;
+	margin: 0 auto;
+}
+
+.main-nav {
+	padding: 20px 0 0 0;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+nav.main-nav a {
+	padding: 8px 5px;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: black;
+}
+
+a:active {
+	color: black;
+}
+
+.header {
+	padding-top: 20px;
+	text-align: center;
+}
+
+.avatar {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	margin: 0 auto;
+	background-color: black;
+}
+
+h1 {
+	margin-top: 20px;
+	font-size: 2em;
+	font-weight: 600;
+	color: black;
+}
+
+h2 {
+	margin-top: 10px;
+	font-size: .85em;
+	font-weight: 300;
+}
+
+p {
+	padding: 8%;
+	margin-top: 20px;
+	line-height: 1.6em;
+	text-align: justify;
+
+}
