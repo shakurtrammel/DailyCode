@@ -1,0 +1,75 @@
+@font-face { 
+	font-family: 'Muli Light';
+	src: url('fonts/muli-light.eot');
+	src: url('fonts/muli-light.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/muli-light.woff') format('woff'),
+	     url('fonts/muli-light.ttf') format('truetype'),
+	     url('fonts/muli-light.svg#webfont') format('svg');
+}
+
+body {
+	font-family: 'Muli Light';
+	font-size: 16px;
+	color: #555;
+}
+
+.wrapper {
+	width: 400px;
+	height: 600px;
+	margin: 0 auto;
+}
+
+nav {
+	margin-top: 40px;
+	padding: 0 0 15px 0;
+	font-size: 13px;
+	border-bottom: 2px solid black ;
+}
+
+nav a {
+	padding: 0 5px;
+	text-decoration: none;
+}
+
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: black;
+}
+
+a:active {
+	color: black;
+}
+
+.header {
+	padding-top: 20px;
+	text-align: left;
+}
+
+h1 {
+	margin-top: 20px;
+	font-size: 1.4em;
+	font-weight: 900;
+	color: black;
+}
+
+h2 {
+	margin-top: 10px;
+	font-size: 0.85em;
+	font-weight: 300;
+}
+
+p {
+	margin-top: 50px;
+	padding-top: 10px;
+	border-top: 2px solid black;
+	line-height: 1.6em;
+	text-align: justify;
+
+}
