@@ -1,0 +1,22 @@
+main {
+	width: 400px;
+	height: 600;
+	margin: 0 auto;
+}
+ div {
+ 	margin-top: 100px;
+ 	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+ }
+	
+p  {
+	padding: 50px 0 50px 0;
+	background-color: black;
+	color: white;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-size: 35px;
+	font-weight: 900;
+	text-align: center;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
