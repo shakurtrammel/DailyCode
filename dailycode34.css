@@ -1,0 +1,199 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* Font-Face Rule 
+@font-face { 
+	font-family: 'Muli Light';
+	src: url('fonts/muli-light.eot');
+	src: url('fonts/muli-light.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/muli-light.woff') format('woff'),
+	     url('fonts/muli-light.ttf') format('truetype'),
+	     url('fontsmuli-light.svg#webfont') format('svg');
+}
+*/
+
+
+
+/* Styles */
+
+
+body {
+	font-family: 'Helvetica', 'Verdana', sans-serif;
+	font-size: 16px;
+}
+
+.wrapper {
+	width: 800px;
+	height: 640px;
+	padding: 20px 40px;
+	border-top: 10px solid black;
+	border-bottom: 10px solid black;
+	margin: 20px auto;
+}
+
+.codewrapper {
+	width: 320px;
+	height: 460px;
+	padding: 16px;
+	border: 1px solid black;
+	margin: 20px 30px 20px 10px;
+	float: left;
+	position: relative;
+}
+
+.headerwrapper {
+	height: 88px;
+	position: relative;
+}
+
+.hgroup {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.avatar {
+	width: 64px;
+	height: 64px;
+	border-radius: 50%;
+	background-color: #2E2E2E;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.h1 {
+	margin-bottom: 10px;
+	font-size: 1.2em;
+	font-weight: 100;
+}
+
+.h2 {
+	font-weight: 900;
+	font-size: 1em;
+	margin-bottom: 10px;
+}
+
+.h3 {
+	font-weight: 900;
+	font-size: 1em;
+}
+
+.nav {
+	width: 96px;
+	height: 16px;
+	background-color: #666;
+	position: absolute;
+	top: 16px;
+	right: 16px;
+}
+
+.shape {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	background-color: black;
+}
+
+.main {
+	width: 320px;
+	height: 320px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.footer {
+	width: 320px;
+	height: 32px;
+	background-color: #999;
+	position: absolute;
+	bottom: 16px;
+	right: 16px;
+
+}
+
+.notesarticle {
+	width: 320px;
+	height: 800px;
+	padding: 0 20px 20px 20px;
+	margin: 20px 20px 20px 10px;
+	float: right;
+	position: relative;
+}
+
+.articletitle {
+	width: 200px;
+	padding: 5px 0 5px 5px;
+	font-size: 2em;
+	font-weight: 900;
+	background: black;
+	color: white;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.articledate {
+	width: 75px;
+	font-size:1.3em;
+	line-height: 1.2em;
+	float: right;
+	
+}
+
+.articlebody {
+	line-height: 1.6em;
+	clear: both;
+}
