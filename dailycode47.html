@@ -1,0 +1,64 @@
+<!doctype html>
+
+<!-- DailyCode is a ongoing project of mines where I design and code a single web page everyday.
+	 This file is the 47th consecutive page I've completed. Woot!
+-->
+
+<html lang="en">
+
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="front-end development, web development, web design, HTML, CSS, Javascript">
+	<meta name="description" content="DailyCode: Daily front-end web design and development.">
+	<meta name="author" content="Shakur Trammel">
+	<title>DailyCode 47</title>
+	<link rel="stylesheet" type="text/css" href="dailycode47.css">
+</head>
+
+
+<body>
+	<div class="wrapper">
+		<div class="codeContainer">
+			<header class="headerContainer"></header>
+			<main class="mainContainer">
+				<svg class="svg" width="140" height="170">
+					<title>Cat</title>
+					<desc>Stick figure of a cat</desc>
+					<!-- Face -->
+					<circle cx="70" cy="95" r="50" style="stroke: black; fill: none;" />
+					<!-- Eyes -->
+					<g id="eyes">
+						<circle cx="55" cy="80" r="5" stroke="black" fill="black" />
+						<circle cx="85" cy="80" r="5" stroke="black" fill="black" />
+					</g>
+					<!-- Whiskers -->
+					<g id="whiskers">
+						<line x1="75" y1="95" x2="135" y2="85" style="stroke:black;" />
+						<line x1="75" y1="95" x2="135" y2="105" style="stroke:black;" />
+					</g>
+					<use xlink:href="#whiskers" transform="scale(-1 1) translate (-140 0)" />
+					<!-- Ears -->
+					<polyline points="108 62, 90 10, 70 45, 50, 10 32, 62" style="stroke: black; fill:none;" />
+					<!-- Mouth -->
+					<polyline points="35 110, 45 120, 95 120, 105, 110" style="stroke: black; fill: none;" />
+					<!-- Nose -->
+					<path d="M 75 90 L 65 90 A 5 10 0  0 0 75 90" style="stroke: black; fill: black" />
+					<!-- Text -->
+					<text x="60" y="165" style="font-family: 'Helvetica Neue'; font-weight: 900; font-size: 16px;
+						stroke: none; fill: black;">Cat</text>
+				</svg>
+			</main>
+		</div>
+		<article class="notesarticle">
+			<h1 class="articletitle">DailyCode 47</h1>
+			<h2 class="articledate"><time datetime="20171002">Feb 10, 2017</time></h2>
+			<p class="articlebody">
+				Today's graphic is an example that I typed out from a book on SVG that I'm reading. I made basic shapes two days in a row so I wanted to make a more robust graphic today. In order to do that i used an example to get a better sense of how the code works. One thing I'd definitely like to do is separate the style attributes from the SVG elements using css. Mozilla has an article about that so I'll check it out. Other than the SVG code, I used box properties and flexbox to style and layout the elements on screen. Something cool I just thought of: since phone screens are mainly 1-dimensional, flexbox is a great tool to use for those layouts. 
+			</p>
+		</article>
+	</div>
+</body>
+
+
+</html>
